@@ -8,6 +8,7 @@
   },
   "main": "index.js",
   "scripts": {
+    "serve":"vue-cli-service serve",
     "dev": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
     "lint": "eslint --ext .js,.vue .",
